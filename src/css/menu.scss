@@ -1,0 +1,16 @@
+.menuContainer {
+    position: relative;
+    padding-top: 7.5vh;
+    height: 82%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.menuImg {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,43 @@
+.footerContainer {
+    position: fixed;
+    bottom: 0px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.footerLinksContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerTabsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2vw;
+}
+
+.footerLink {
+    width: $icon;
+    fill: white;
+}
+
+.footerTab {
+    font-size: $text;
+    color: white;
+}
+
+.footerSeparator {
+    height: $text;
+    width: 2px;
+    background-color: rgb(117, 117, 117);
+}
